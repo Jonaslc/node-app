@@ -11,8 +11,6 @@ RUN apt-get update \
 
 COPY . .
 
-RUN ls -la
-
 RUN rm -rf node_modules
 
 RUN npm install
